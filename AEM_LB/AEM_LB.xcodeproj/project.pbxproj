@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40A8DE341E767D9D0076C079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8DE331E767D9D0076C079 /* AppDelegate.swift */; };
-		40A8DE361E767D9D0076C079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8DE351E767D9D0076C079 /* ViewController.swift */; };
 		40A8DE391E767D9D0076C079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A8DE371E767D9D0076C079 /* Main.storyboard */; };
 		40A8DE3B1E767D9D0076C079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A8DE3A1E767D9D0076C079 /* Assets.xcassets */; };
 		40A8DE3E1E767D9D0076C079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A8DE3C1E767D9D0076C079 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		40A8DE301E767D9D0076C079 /* AEM_LB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEM_LB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A8DE331E767D9D0076C079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40A8DE351E767D9D0076C079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40A8DE381E767D9D0076C079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40A8DE3A1E767D9D0076C079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A8DE3D1E767D9D0076C079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,45 @@
 		40A8DE321E767D9D0076C079 /* AEM_LB */ = {
 			isa = PBXGroup;
 			children = (
+				40A8DE451E768E1E0076C079 /* Cleasses */,
 				40A8DE331E767D9D0076C079 /* AppDelegate.swift */,
-				40A8DE351E767D9D0076C079 /* ViewController.swift */,
 				40A8DE371E767D9D0076C079 /* Main.storyboard */,
 				40A8DE3A1E767D9D0076C079 /* Assets.xcassets */,
 				40A8DE3C1E767D9D0076C079 /* LaunchScreen.storyboard */,
 				40A8DE3F1E767D9D0076C079 /* Info.plist */,
 			);
 			path = AEM_LB;
+			sourceTree = "<group>";
+		};
+		40A8DE451E768E1E0076C079 /* Cleasses */ = {
+			isa = PBXGroup;
+			children = (
+				40A8DE481E768E640076C079 /* Tools */,
+				40A8DE461E768E1E0076C079 /* Home */,
+				40A8DE471E768E1E0076C079 /* Main */,
+			);
+			path = Cleasses;
+			sourceTree = "<group>";
+		};
+		40A8DE461E768E1E0076C079 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40A8DE471E768E1E0076C079 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		40A8DE481E768E640076C079 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A8DE361E767D9D0076C079 /* ViewController.swift in Sources */,
 				40A8DE341E767D9D0076C079 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AEM_LB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bin.AEM-LB";
+				PRODUCT_BUNDLE_IDENTIFIER = "bin-fatal--unable-to-auto-detect-email-address--got--liubin-localhost.-none---.AEM-LB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +301,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AEM_LB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bin.AEM-LB";
+				PRODUCT_BUNDLE_IDENTIFIER = "bin-fatal--unable-to-auto-detect-email-address--got--liubin-localhost.-none---.AEM-LB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +329,7 @@
 				40A8DE441E767D9D0076C079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
